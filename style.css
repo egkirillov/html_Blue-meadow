@@ -1,0 +1,127 @@
+h1 {
+    color: #141414;
+    font-family: Podkova;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+p {     
+    color: #141414;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%; /* 20.48px */
+    text-transform: uppercase;
+}
+
+li {     
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    color: #434A5C;
+    padding-right: 20px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+    margin: 0px;
+    border-bottom: 1px solid #DDD;
+}
+.header__top--motto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+}
+.motto {
+    padding-left: 20px;
+}
+.header__top--callback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+    margin: 0px;
+
+}
+.header__top--phone {
+    color: #3D3D3D;
+    font-family: Podkova;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 26px */
+    text-transform: uppercase;    
+}
+.header__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+    margin-top: 24px;
+    margin-bottom: 27px;
+}
+.header__down--action {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+}
+.poster {
+    color: #141414;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+.header__down--business {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+}
+.sec1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+    row-gap: 55px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #DDD;
+    
+}
+.sec1__title {
+    grid-column: span 2;
+    color: #BF6024;
+    font-family: Podkova;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128%;   
+    
+}
